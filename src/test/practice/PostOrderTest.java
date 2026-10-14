@@ -2,6 +2,7 @@ package practice;
 
 import list.List;
 import org.junit.jupiter.api.Test;
+import tree.Node;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /** Tests for the iterative post-order traversal. */
