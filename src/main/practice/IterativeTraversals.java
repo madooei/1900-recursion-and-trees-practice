@@ -4,6 +4,7 @@ import list.ArrayList;
 import list.List;
 import stack.LinkedStack;
 import stack.Stack;
+import tree.Node;
 
 /** Solutions to the iterative traversal problems. */
 public final class IterativeTraversals {

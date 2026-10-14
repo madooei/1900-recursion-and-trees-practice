@@ -18,8 +18,9 @@ code/
   src/
     main/
       practice/
-        Node.java                       # a binary-tree node for these problems
         IterativeTraversals.java        # iterative pre-, in-, and post-order
+      tree/
+        Node.java                       # the binary-tree node from the chapter
       stack/
         Stack.java                      # the Stack ADT from the stack chapter
         LinkedStack.java                # the stack the traversals use
@@ -45,6 +46,6 @@ There is no demo program for these problems; the tests are how you check your wo
 ## What's here
 
 - `practice.IterativeTraversals` — `preOrder`, `inOrder`, and `postOrder`. Each one returns the values of a binary tree in that order without recursion, and returns an empty list for an empty tree.
-- `practice.Node<T>` — a binary-tree node with a value and a left and a right child. It is defined in this package because the chapter's node is package-private to the `tree` package.
+- `tree.Node<T>` — the binary-tree node from the chapter, with a value and a left and a right child.
 - `practice.PreOrderTest`, `practice.InOrderTest`, `practice.PostOrderTest` — tests for the three traversals.
-- The `stack` and `list` packages are copies from earlier chapters. They are included so this code compiles and runs on its own.
+- The `tree` package is a copy from the chapter, and the `stack` and `list` packages are copies from earlier chapters. They are included so this code compiles and runs on its own.
