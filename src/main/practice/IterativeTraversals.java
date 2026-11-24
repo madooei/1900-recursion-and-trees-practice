@@ -47,7 +47,7 @@ public final class IterativeTraversals {
         stack.push(current);
         current = current.left;
       }
-      current = stack.top();      // the top has no unvisited left — it is ready
+      current = stack.top();      // the top has no unvisited left, so it is ready
       stack.pop();
       result.add(current.value);  // record it
       current = current.right;    // then move into its right subtree
