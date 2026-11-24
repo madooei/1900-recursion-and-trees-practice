@@ -45,7 +45,7 @@ code/
 - `scripts/test.sh practice.InOrderTest` — compiles everything and runs only that test class. Use this while you are working on one traversal and the others are still empty.
 - `scripts/run.sh demo.IterativeTraversalsDemo` — compiles everything and runs that one demo. Every class you implement has its own demo, `<Class>Demo`.
 
-## What's here
+## Contents
 
 - `practice.IterativeTraversals` — `preOrder`, `inOrder`, and `postOrder`. Each one returns the values of a binary tree in that order without recursion, and returns an empty list for an empty tree.
 - `tree.Node<T>` — the binary-tree node from the chapter, with a value and a left and a right child.
